@@ -24,8 +24,9 @@ body header .header {
 }
 body header .burger {
   position: relative;
+  text-align: right;
   top: -7.5px;
-  left: 330px;
+  right: 30px;
 }
 body header .sun {
   position: relative;
@@ -121,6 +122,10 @@ body main .grid-container1 .grid-item2 {
 }
 body main .grid-container1 .grid-item2 span {
   font-weight: 900;
+  color: #24303E;
+}
+body main .grid-container1 .grid-item2 p {
+  color: #808397;
 }
 body main .grid-container1 .grid-item3 {
   grid-column: 1;
@@ -133,6 +138,10 @@ body main .grid-container1 .grid-item4 {
 }
 body main .grid-container1 .grid-item4 span {
   font-weight: 900;
+  color: #24303E;
+}
+body main .grid-container1 .grid-item4 p {
+  color: #808397;
 }
 body main .grid-container1 .grid-item5 {
   grid-column: 1;
@@ -253,7 +262,7 @@ img {
     display: block;
     position: relative;
     top: -28px;
-    right: 20px;
+    right: 30px;
     word-spacing: 20px;
     text-align: right;
   }
